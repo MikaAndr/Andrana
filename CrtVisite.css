@@ -1,0 +1,23 @@
+body{
+    background: #ffffff;
+}
+.card{
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    width: 400px;
+    height: 235px;
+    background: url('Fond.jpg');
+    background-size: 600px;
+    color: aliceblue;
+    transition: all 3s;
+}
+.card:hover{
+    background: url('Fond.jpg');
+    background-size: 750px;
+}
